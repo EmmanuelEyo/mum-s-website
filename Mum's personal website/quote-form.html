@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Insurance.Diva</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href = "./resources/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/Magnific-Popup-master/dist/magnific-popup.css">
+    <link rel="stylesheet" href="./resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="./quote-form.css">
+  </head>
+  <body>
+      <div class="header" id="intro">
+          <div class="navbar">
+              <div class="container">
+                  <div class="brand-and-toggler">
+                    <a href = "index.html" class = "navbar-brand">
+                        Insurance<span>.</span><span>Diva</span>
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container-1" id="container-1">
+        <div class="title container-2"><h1>Kindly Fill The Form Below</h1></div>
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name</span> 
+              <input type="text" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Email Address</span> 
+              <input type="text" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Phone number</span> 
+              <input type="text" class="form-control" placeholder="Enter your number" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Amount</span> 
+              <input type="number" class="form-control" placeholder="Enter your amount" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Product</span> 
+              <select name="product" id="product" class="form-control drop-down">
+                <option value="1">Select Product</option>
+                <option value="2">Annuity</option>
+                <option value="3">Corporate Savings Plan</option>
+                <option value="4">Children Education Plan</option>
+                <option value="5">Education Legancy Assurance Plan</option>
+                <option value="6">Flexible Endowment Plan</option>
+                <option value="7">Life Celebration Plan</option>
+                <option value="8">New Income Investment Plan</option>
+                <option value="9">Term Assurance</option>
+                <option value="10">Three Payment Plan</option>
+                <option value="11">MoneyWise</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <span class="details">Date of Birth</span> 
+              <input type="date" class="from-control" placeholder="Enter your date of birth" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Frequency of payment</span> 
+              <select name="duration" id="duration" class="form-control drop-down-2">
+                <option value="1">Select Duration</option>
+                <option value="2">Annually</option>
+                <option value="3">Semi-Annually</option>
+                <option value="4">Quarterly</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <span class="details">Duration</span> 
+              <input type="text" class="form-control" required>
+            </div>
+            <textarea placeholder="Enter Description" rows="6"></textarea>
+          </div>
+          <button id="submitForm">Submit Form</button>
+        </form>
+      </div>
+  </div>    
+  
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./resources/jquery-3.5.1.js"></script>
+  <script src="quote-form.js"></script>
+  </body>
+</html>  
+  
